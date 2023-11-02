@@ -1,19 +1,20 @@
 # Chat Video
 
-![Project Logo](path/to/your/logo.png)
+![Project Logo](https://github.com/Ariq154404/Chat_video/blob/main/assets/proj_logo.png)
+logo created with DALL-E-3
 
 ## Description
 
 In this project , I used llamaindex with gpt-3.5 to interact with video and ask queiries. LlamaIndex significantly enhances the capabilities of Large Language Models (LLMs) by integrating specific user data, ensuring tailored and relevant responses. It streamlines the Retrieval Augmented Generation (RAG) process, enabling efficient data retrieval and handling through advanced indexing, querying, and storage solutions.
 ## Demo
 
-![Demo GIF](path/to/your/demo.gif)
+![Demo GIF](https://github.com/Ariq154404/Chat_video/blob/main/assets/project_demo.gif)
 
 ## Concept Diagram
 
 Here below it shows the conceptual diagram:
 
-![Concept Diagram](path/to/your/diagram.png)
+![Concept Diagram](https://github.com/Ariq154404/Chat_video/blob/main/assets/system_diagram.png)
 
 ## Run Locally
 
