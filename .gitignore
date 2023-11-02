@@ -1,3 +1,5 @@
 /myenv/*
 /videos/*
 /models/*
+/.env
+/audio.wav
