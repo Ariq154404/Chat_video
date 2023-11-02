@@ -1,6 +1,8 @@
 # Chat Video
 
-![Project Logo](https://github.com/Ariq154404/Chat_video/blob/main/assets/proj_logo.png)
+<p align="center">
+  <img src="https://github.com/Ariq154404/Chat_video/blob/main/assets/proj_logo.png" alt="Project Logo">
+</p>
 logo created with DALL-E-3
 
 ## Description
