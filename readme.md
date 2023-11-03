@@ -1,9 +1,7 @@
-<h1 align="center" style="font-size: 110px;">Chat Video</h1>
-
 <p align="center">
-  <img src="https://github.com/Ariq154404/Chat_video/blob/main/assets/proj_logo.png" alt="Project Logo">
+  <img src="https://github.com/Ariq154404/Chat_video/blob/main/assets/proj_logo.png" alt="Project Logo" style="max-width: 20%; height: auto;">
 </p>
-logo created with DALL-E-3
+<p align="center"><i>Logo created with DALL-E-3</i></p>
 
 ## Description
 

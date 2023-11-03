@@ -14,17 +14,6 @@ import chainlit as cl
 from transcribe_video import VideoTranscriber
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
-# try:
-#     # rebuild storage context
-#     storage_context = StorageContext.from_defaults(persist_dir="./storage")
-#     # load index
-#     index = load_index_from_storage(storage_context)
-# except:
-#     from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader
-
-#     documents = SimpleDirectoryReader("./outputs").load_data()
-#     index = GPTVectorStoreIndex.from_documents(documents)
-#     index.storage_context.persist()
 
 def create_index():
     try:
@@ -60,7 +49,7 @@ async def factory():
     await cl.make_async(transcriber.transcribe_video)(file.content, "outputs/trascripts.txt")
     # transcriber.transcribe_video(file.content, "outputs/trascripts.txt")
     index=await cl.make_async(create_index)()
-    msg.content = f"Processing `{file.name}` done in format '. You can now ask questions!"
+    msg.content = f"Processing `{file.name}` done .You can now ask questions!"
     await msg.update()
     llm_predictor = LLMPredictor(
         llm=ChatOpenAI(
@@ -71,7 +60,7 @@ async def factory():
     )
     service_context = ServiceContext.from_defaults(
         llm_predictor=llm_predictor,
-        chunk_size=512,
+        chunk_size=1024,
         callback_manager=CallbackManager([cl.LlamaIndexCallbackHandler()]),
     )
 
